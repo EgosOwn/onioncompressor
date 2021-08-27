@@ -1,0 +1,5 @@
+venv/*
+onioncompressor/__pycache__/*
+testdata/*
+.vscode/*
+onioncompressor.egg-info/*
