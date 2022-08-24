@@ -8,8 +8,10 @@ The resulting bytes is actually a valid ed25519 public key, but you probably sho
 
 It can also uncompress the bytes back to the human friendly format.
 
+The compressed result is about 50% smaller.
+
 # Usage
 
 `compressed: bytes = onioncompressor.compress('duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion')`
 
-`uncompressed: str: = onioncompressor.compress(compressed)`
+`uncompressed: str: = onioncompressor.decompress(compressed)`
